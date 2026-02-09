@@ -1,3 +1,4 @@
 # Connor Fischetti: Portfolio Site
 
-Yet to be public/Under Construction
+## Visit it here:
+github.io/connortif1463/connor-fischetti-portfolio/
