@@ -7,9 +7,27 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
     <title>Connor Fischetti Portfolio</title>
-  </head>
+  <style>
+    .container { 
+      height: 200px;
+      position: relative;
+      border: 3px solid green;
+    }
+
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <!-- <div class="center"> -->
+      <div id="root"></div>
+      <script type="module" src="/src/main.jsx"></script>
+    <!-- </div> -->
   </body>
 </html>
