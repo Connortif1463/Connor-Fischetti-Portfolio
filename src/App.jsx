@@ -7,16 +7,17 @@ import ScopedCssBaseline from '@mui/material/ScopedCssBaseline';
 import Stack from '@mui/material/Stack';
 import Divider from '@mui/material/Divider';
 import Link from '@mui/material/Link';
+import LangLabel from './LanguageGrid';
 
 export default function App() {
   return (
     <ScopedCssBaseline>
       <Container maxWidth="sm">
         <Box sx={{ mt: 4 }}>
-          <Typography 
+          <Typography
             variant="h3"
             align="center"
-            sx={{ color: 'text.primary'}}
+            sx={{ color: 'text.primary' }}
           >
             Connor Fischetti
           </Typography>
@@ -28,7 +29,7 @@ export default function App() {
           >
             Software Development Portfolio
           </Typography>
-          
+
           <Box>
             <Stack
               alignItems="center"
@@ -77,10 +78,13 @@ export default function App() {
                 <Typography
                   variant='body1'
                   align="center"
-                  sx={{color: 'text.secondary' }}
+                  sx={{ color: 'text.secondary' }}
                 >
                   A chrome extension that limits access to certain websites while the user is working on productive tasks.
                 </Typography>
+
+                <LangLabel repoUrl="https://github.com/Connortif1463/ScholarTimeProject" />
+
                 <Box sx={{ textAlign: 'center', mt: 1 }}>
                   <Link href="https://connortif1463.github.io/ScholarTime-Info/" display="block">
                     Website
@@ -103,10 +107,20 @@ export default function App() {
                 <Typography
                   variant='body1'
                   align="center"
-                  sx={{color: 'text.secondary' }}
+                  sx={{ color: 'text.secondary' }}
                 >
                   Environmental Awareness with BeBot is a web application that builds community engagement with Meijer’s sustainability efforts.
                 </Typography>
+
+                <LangLabel
+                  languages={[
+                    'JavaScript',
+                    'CSS',
+                    'HTML',
+                    'Java'
+                  ]}
+                />
+
                 <Box sx={{ textAlign: 'center', mt: 1 }}>
                   <Link href="https://capstone.cse.msu.edu/2025-08/projects/meijer/project-video-full-resolution.mp4" display="block">
                     Video Link
@@ -129,10 +143,13 @@ export default function App() {
                 <Typography
                   variant='body1'
                   align="center"
-                  sx={{color: 'text.secondary' }}
+                  sx={{ color: 'text.secondary' }}
                 >
                   Uses selenium to detect the title from current YouTube video/music and writes its title and link to corresponding text files, for use in streaming.
                 </Typography>
+
+                <LangLabel repoUrl="https://github.com/Connortif1463/OBS-YouTube-Title-Scraper" />
+
                 <Box sx={{ textAlign: 'center', mt: 1 }}>
                   <Link href="https://github.com/Connortif1463/OBS-YouTube-Title-Scraper" display="block">
                     GitHub Repository
