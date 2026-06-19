@@ -102,6 +102,46 @@ export default function App() {
                   align="center"
                   sx={{ color: 'text.primary' }}
                 >
+                  Studio-Management-Software,
+                </Typography>
+                  <Typography
+                    variant="h5"
+                    align="center"
+                    sx={{ color: 'text.primary' }}
+                  >
+                  <Link href="https://www.thirdspacesound.com">
+                    for thirdspacesound.com
+                  </Link>
+                </Typography>
+                <Typography
+                  variant='body1'
+                  align="center"
+                  sx={{ color: 'text.secondary' }}
+                >
+                  A CLI that organizes music studio operation. 
+                  It can find and open DAWs, keeps track of session information.
+                  It also takes care of your filesystem searching and task management!
+                </Typography>
+
+                <LangLabel repoUrl="https://github.com/Connortif1463/StudioManagementSoftware" />
+
+                <Box sx={{ textAlign: 'center', mt: 1 }}>
+                  <Link href="https://www.thirdspacesound.com/" display="block">
+                    Website
+                  </Link>
+                  <Link href="https://github.com/Connortif1463/StudioManagementSoftware" display="block">
+                    GitHub Repository
+                  </Link>
+                </Box>
+              </Box>
+
+              {/* Project 3 */}
+              <Box>
+                <Typography
+                  variant="h5"
+                  align="center"
+                  sx={{ color: 'text.primary' }}
+                >
                   Meijer Capstone: Environmental Awareness with BeBot
                 </Typography>
                 <Typography
@@ -131,7 +171,7 @@ export default function App() {
                 </Box>
               </Box>
 
-              {/* Project 3 */}
+              {/* Project 4 */}
               <Box>
                 <Typography
                   variant="h5"
